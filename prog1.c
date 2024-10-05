@@ -3,6 +3,6 @@ void main()
 {
 printf("1 line");
 printf("2 line");
-
+printf("3 line");
 }
 
