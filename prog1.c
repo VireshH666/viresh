@@ -8,6 +8,6 @@ printf("Before stash");
 printf("New changes");
 
 printf("3 line");
->>>>>>> featurebranch
+
 }
 
