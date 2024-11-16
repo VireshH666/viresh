@@ -232,4 +232,64 @@ Author: VireshBH <vireshhunasagi134@gmail.com>
 Date:   Sat Nov 16 09:54:47 2024 +0530
 
     1
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/vir (master)
+$ mkdir kk
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/vir (master)
+$ cd kk
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/vir/kk (master)
+$ git init
+Initialized empty Git repository in D:/vir/kk/.git/
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/vir/kk (master)
+$ nano k.c
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/vir/kk (master)
+$ git add k.c
+warning: in the working copy of 'k.c', LF will be replaced by CRLF the next time Git touches it
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/vir/kk (master)
+$ git commit -m "1"
+[master (root-commit) a3a04fd] 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 k.c
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/vir/kk (master)
+$ git log
+commit a3a04fd5306d5989d9645ff8cc8bf920f038e79d (HEAD -> master)
+Author: VireshBH <vireshhunasagi134@gmail.com>
+Date:   Sat Nov 16 10:25:39 2024 +0530
+
+    1
+
+BLDEA-CSE@DESKTOP-02RM63H MINGW64 /d/vir/kk (master)
+$ git revert a3a04fd5306d5989d9645ff8cc8bf920f038e79d
+hint: Waiting for your editor to close the file...       0 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                                                                658622 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                               1161932 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                                                                           1237081 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                           1289844 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                                                                                       1293877 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                       1297649 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                       1349482 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                       1398036 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+       1445522 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                   1449743 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                   1494382 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                   1539872 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                               1589599 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                               1593554 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                               1632765 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                                           1681268 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                           1685488 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                                                       1728058 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                       1774783 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                                                                   1850137 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                   15539511 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                                                                                                15759784 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+                                                                                 16087113 [sig] bash 346! sigpacket::process: Suppressing signal 18 to win32 process (pid 368)
+[master 2462992] Revert "1"
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 k.c
 
